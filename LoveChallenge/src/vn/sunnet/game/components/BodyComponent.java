@@ -1,0 +1,29 @@
+package vn.sunnet.game.components;
+
+import vn.sunnet.game.entities.Component;
+import vn.sunnet.game.entities.Entity;
+
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.physics.box2d.Body;
+
+public abstract class BodyComponent extends Component {
+
+	private static final String TAG = "BodyComponent";
+	protected Body body;
+	protected float width;
+	protected float height;
+
+	public Body getBody() {
+		return body;
+	}
+
+	@Override
+	public void onRemove() {
+		if (body != null) {
+			Gdx.app.log(TAG, "Removing body");
+			Entity owner = getOwner();
+			owner.getLevel().getPsychicsManager().getWorld().destroyBody(body);
+		}
+	}
+
+}
