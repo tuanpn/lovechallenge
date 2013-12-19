@@ -1,0 +1,89 @@
+
+button.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+option2
+  rotate: false
+  xy: 1, 1
+  size: 96, 98
+  orig: 96, 98
+  offset: 0, 0
+  index: -1
+option
+  rotate: false
+  xy: 99, 27
+  size: 70, 72
+  orig: 70, 72
+  offset: 0, 0
+  index: -1
+download1
+  rotate: false
+  xy: 171, 58
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+download2
+  rotate: false
+  xy: 216, 58
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+info1
+  rotate: false
+  xy: 261, 58
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+info2
+  rotate: false
+  xy: 306, 58
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+offMusic1
+  rotate: false
+  xy: 351, 58
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+offMusic2
+  rotate: false
+  xy: 396, 58
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+onMusic1
+  rotate: false
+  xy: 441, 58
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+onMusic2
+  rotate: false
+  xy: 171, 15
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+share1
+  rotate: false
+  xy: 216, 15
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+share2
+  rotate: false
+  xy: 261, 15
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1

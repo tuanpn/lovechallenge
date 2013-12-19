@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefabs>
+	<prefab id="BG" type="Sprite" atlas="MAINMENU_ATLAS" region="backgroundmenu" />
+	<prefab id="LAYER2" type="Sprite" atlas="MAINMENU_ATLAS" region="lay2" />
+	<prefab id="OPTION" type="Sprite" atlas="MAINMENU_ATLAS" region="option" />
+	<prefab id="HALFCIRCLE" type="Sprite" atlas="MAINMENU_ATLAS" region="a" />
+	<prefab id="TextLoveChallege" type="Sprite" atlas="MAINMENU_ATLAS" region="textlove" />
+	<prefab id="TOUCHTOSCREEN" type="Sprite" atlas="MAINMENU_ATLAS" region="touchtoscreen" />
+	
+	<prefab id="ONMUSIC" type="Button" theme="UI_SKIN" name="onMusic" />
+	<prefab id="OFFMUSIC" type="Button" theme="UI_SKIN" name="offMusic" />
+	<prefab id="DOWNLOAD" type="Button" theme="UI_SKIN" name="onDownload" />
+	<prefab id="OPTION" type="Button" theme="UI_SKIN" name="option" />
+	<prefab id="INFO" type="Button" theme="UI_SKIN" name="onInfo" />
+	<prefab id="SHARE" type="Button" theme="UI_SKIN" name="onShare" />
+</prefabs>

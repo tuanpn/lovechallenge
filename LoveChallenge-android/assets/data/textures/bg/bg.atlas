@@ -1,0 +1,64 @@
+
+bg.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sky1
+  rotate: false
+  xy: 1, 403
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+sky2
+  rotate: false
+  xy: 1, 1
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+
+bg2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sky3
+  rotate: false
+  xy: 1, 403
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+sky4
+  rotate: false
+  xy: 1, 1
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+
+bg3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sky5
+  rotate: false
+  xy: 1, 516
+  size: 1000, 400
+  orig: 1000, 400
+  offset: 0, 0
+  index: -1
+lamp
+  rotate: false
+  xy: 1, 225
+  size: 283, 289
+  orig: 283, 289
+  offset: 0, 0
+  index: -1
+lamppost
+  rotate: false
+  xy: 1, 1
+  size: 40, 222
+  orig: 40, 222
+  offset: 0, 0
+  index: -1

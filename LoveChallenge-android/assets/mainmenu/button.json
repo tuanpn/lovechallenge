@@ -1,0 +1,10 @@
+{
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	option : { down: option2, up: option },
+	onMusic: { down: onMusic2, up: onMusic1 },
+	offMusic: { down: offMusic2, up: offMusic1 },
+	onDownload: { down: download2, up: download1 },
+	onInfo: { down: info2, up: info1 },
+	onShare: { down: share2, up: share1 },
+},
+}

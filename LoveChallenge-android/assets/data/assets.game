@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <resource type="atlas" id="PLAYER_ATLAS">player/player</resource>
+  <resource type="atlas" id="GIRL_ATLAS">girl/girl</resource>
+  <resource type="atlas" id="SKY_ATLAS">bg/bg</resource>
+  <resource type="texture" id="NEIGHBORHOOD">bg/neighborhood.png</resource>
+  <resource type="atlas" id="STATIC_ATLAS">static/static</resource>
+  
+  <resource type="material" id="StaticEnemy" density="0"   friction="0"    restitution="0" />
+  <resource type="material" id="CUBE"        density="0"   friction="0"    restitution="0" />
+  <resource type="material" id="GROUND"      density="0"   friction="0"   restitution="0" />
+</resources>

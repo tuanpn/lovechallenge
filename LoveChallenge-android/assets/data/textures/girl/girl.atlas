@@ -1,0 +1,348 @@
+
+girl.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+girl_die
+  rotate: false
+  xy: 1, 890
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 1
+girl_die
+  rotate: false
+  xy: 1, 763
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 2
+girl_die
+  rotate: false
+  xy: 128, 890
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 3
+girl_die
+  rotate: false
+  xy: 1, 636
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 4
+girl_die
+  rotate: false
+  xy: 128, 763
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 5
+girl_die
+  rotate: false
+  xy: 255, 890
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 6
+girl_die
+  rotate: false
+  xy: 1, 509
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 7
+girl_die
+  rotate: false
+  xy: 128, 636
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 8
+girl_die
+  rotate: false
+  xy: 255, 763
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 9
+girl_die
+  rotate: false
+  xy: 382, 890
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 10
+girl_die
+  rotate: false
+  xy: 1, 382
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 11
+girl_die
+  rotate: false
+  xy: 128, 509
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 12
+girl_jump
+  rotate: false
+  xy: 255, 636
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 1
+girl_run
+  rotate: false
+  xy: 255, 636
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 1
+girl_jump
+  rotate: false
+  xy: 382, 763
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 2
+girl_jump
+  rotate: false
+  xy: 509, 890
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 3
+girl_jump
+  rotate: false
+  xy: 1, 255
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 4
+girl_jump
+  rotate: false
+  xy: 128, 382
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 5
+girl_jump
+  rotate: false
+  xy: 255, 509
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 6
+girl_jump
+  rotate: false
+  xy: 382, 636
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 7
+girl_jump
+  rotate: false
+  xy: 509, 763
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 8
+girl_jump
+  rotate: false
+  xy: 636, 890
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 9
+girl_jump
+  rotate: false
+  xy: 1, 128
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 10
+girl_jump
+  rotate: false
+  xy: 128, 255
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 11
+girl_jump
+  rotate: false
+  xy: 255, 382
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 12
+girl_jump
+  rotate: false
+  xy: 382, 509
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 13
+girl_jump
+  rotate: false
+  xy: 509, 636
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 14
+girl_run
+  rotate: false
+  xy: 636, 763
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 2
+girl_run
+  rotate: false
+  xy: 763, 890
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 3
+girl_run
+  rotate: false
+  xy: 1, 1
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 4
+girl_run
+  rotate: false
+  xy: 128, 128
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 5
+girl_run
+  rotate: false
+  xy: 255, 255
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 6
+girl_run
+  rotate: false
+  xy: 382, 382
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 7
+girl_run
+  rotate: false
+  xy: 509, 509
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 8
+girl_run
+  rotate: false
+  xy: 636, 636
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 9
+girl_run
+  rotate: false
+  xy: 763, 763
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 10
+girl_run
+  rotate: false
+  xy: 890, 890
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 11
+girl_run
+  rotate: false
+  xy: 128, 1
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 12
+girl_run
+  rotate: false
+  xy: 255, 128
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 13
+girl_run
+  rotate: false
+  xy: 382, 255
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 14
+girl_run
+  rotate: false
+  xy: 509, 382
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 15
+girl_run
+  rotate: false
+  xy: 636, 509
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 16
+girl_run
+  rotate: false
+  xy: 763, 636
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 17
+girl_run
+  rotate: false
+  xy: 890, 763
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 18
+girl_run
+  rotate: false
+  xy: 255, 1
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 19
+girl_win
+  rotate: false
+  xy: 382, 128
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 1
+girl_win
+  rotate: false
+  xy: 382, 128
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 3
+girl_win
+  rotate: false
+  xy: 509, 255
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 2
+girl_win
+  rotate: false
+  xy: 509, 255
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: 4

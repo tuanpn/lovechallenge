@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefabs>
+    
+	<prefab id="GIRL" index="6" >
+	 <component type="AnimatedSpriteComponent" offset-x="-45" offset-y="-20">
+        <extra atlas="GIRL_ATLAS" region="girl_run"   name="Run" duration="0.03f" type="LOOP" />
+        <extra atlas="GIRL_ATLAS" region="girl_jump"   name="Jump" duration="0.03f" type="NORMAL" />
+        </component>
+    
+  		<component type="GirlComponent" 
+              width="30" 
+             height="80" 
+    	sensor-offset-y="-1.4f"
+             weight="10" 
+         move-speed="5.0"
+         jump-power="200" />
+    </prefab>
+
+   <prefab id="PLAYER" index="5">
+   <component type="AnimatedPlayerSpriteComponent" offset-x="-45" offset-y="-20">
+      <extra atlas="PLAYER_ATLAS" region="body_run"   name="RunBody" duration="0.03f" type="LOOP" />
+      <extra atlas="PLAYER_ATLAS" region="head_run"   name="RunHead" duration="0.03f" type="LOOP" />
+      
+      <extra atlas="PLAYER_ATLAS" region="body_jump_1"   name="JumpBody1" duration="0.12f" type="NORMAL" />
+      <extra atlas="PLAYER_ATLAS" region="body_jump_2"   name="JumpBody2" duration="0.1f" type="NORMAL" />
+      <extra atlas="PLAYER_ATLAS" region="body_jump_3"   name="JumpBody3" duration="0.06f" type="NORMAL" />
+      <extra atlas="PLAYER_ATLAS" region="head_jump_1"   name="JumpHead1" duration="0.12f" type="NORMAL" />
+      <extra atlas="PLAYER_ATLAS" region="head_jump_2"   name="JumpHead2" duration="0.1f" type="NORMAL" />
+      <extra atlas="PLAYER_ATLAS" region="head_jump_3"   name="JumpHead3" duration="0.06f" type="NORMAL" />
+      
+      <extra atlas="PLAYER_ATLAS" region="body_sit"   name="SitBody" duration="0.1f" type="NORMAL" />
+       <extra atlas="PLAYER_ATLAS" region="head_sit"   name="SitHead" duration="0.1f" type="NORMAL" />
+      
+      <extra atlas="PLAYER_ATLAS" region="body_die_1"   name="DieBody1" duration="0.12f" type="NORMAL" />
+      <extra atlas="PLAYER_ATLAS" region="body_die_2"   name="DieBody2" duration="0.12f" type="NORMAL" />
+      <extra atlas="PLAYER_ATLAS" region="head_die_1"   name="DieHead1" duration="0.12f" type="NORMAL" />
+      <extra atlas="PLAYER_ATLAS" region="head_die_2"   name="DieHead2" duration="0.12f" type="NORMAL" />
+      
+      <extra atlas="PLAYER_ATLAS" region="body_fall"   name="FallBody" duration="0.2f" type="NORMAL" />
+      <extra atlas="PLAYER_ATLAS" region="head_fall"   name="FallHead" duration="0.2f" type="NORMAL" />
+    </component>
+   <component type="PlayerComponent" 
+              width="30" 
+             height="80" 
+    sensor-offset-y="-1.4f"
+             weight="10" 
+         move-speed="5.0"
+         jump-power="200" />
+  </prefab>
+  
+  <prefab id="STATICENEMYCAR1" index="4" >
+  	<component type="SpriteAtlasComponent" atlas="STATIC_ATLAS" region="o-to" offset-x="0"/>
+    <component type="TrapeziumStaticBodyComponent"  material="StaticEnemy" width="140" height="100" trapezium-offsetX="-40"/>
+  </prefab>
+  
+  <prefab id="STATICENEMYCAR2" index="4" >
+  	<component type="SpriteAtlasComponent" atlas="STATIC_ATLAS" region="o-to-2" offset-x="0"/>
+    <component type="TrapeziumStaticBodyComponent"  material="StaticEnemy" width="140" height="100" trapezium-offsetX="-40"/>
+  </prefab>
+  
+  <prefab id="LAMPPOST" index="3">
+    <component type="SpriteAtlasComponent"  atlas="SKY_ATLAS" region="lamppost"/>
+    <component type="PointLightComponent"   static="true" distance="3f" red="0.5f" green="0.5f" blue="1f" alpha="1" offset-x="20" offset-y="190"/>
+  </prefab>
+
+  <prefab id="NEIGHBORHOOD" index="2">
+    <component type="SpriteTextureComponent"  texture="NEIGHBORHOOD" />
+  </prefab>
+  
+  <prefab id="SKY1" index="1">
+    <component type="SpriteAtlasComponent" atlas="SKY_ATLAS" region="sky1" />
+  </prefab>
+  
+  <prefab id="SKY2" index="1">
+    <component type="SpriteAtlasComponent" atlas="SKY_ATLAS" region="sky2"/>
+  </prefab>
+  
+  <prefab id="SKY3" index="1">
+    <component type="SpriteAtlasComponent" atlas="SKY_ATLAS" region="sky3"/>
+  </prefab>
+  
+  <prefab id="SKY4" index="1">
+    <component type="SpriteAtlasComponent" atlas="SKY_ATLAS" region="sky4"/>
+  </prefab>
+  
+  <prefab id="SKY5" index="1">
+    <component type="SpriteAtlasComponent" atlas="SKY_ATLAS" region="sky5"/>
+  </prefab>
+  
+  <prefab id="GROUND" index ="0">
+    <component type="StaticBodyComponent"  material="GROUND" width="3000" height="10" />
+  </prefab>
+</prefabs>
